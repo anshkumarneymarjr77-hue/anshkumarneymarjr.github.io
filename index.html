@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ramesh Electricals</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
+    header {
+      background: url('shop.jpg') no-repeat center/cover;
+      height: 60vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background-color: rgba(0,0,0,0.6);
+      background-blend-mode: darken;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    .container {
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #007BFF;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>Ramesh Electrical & Home Appliances</h1>
+    <p>Sales | Service | Repair</p>
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>Contact Us</h2>
+    <p><strong>Owner:</strong> Ramesh Chandra</p>
+    <p><strong>Phone:</strong> 9848691711</p>
+    <a href="tel:9848691711" class="btn">Call Now</a>
+  </div>
+
+  <div class="card">
+    <h2>About Us</h2>
+    <p>Ramesh Electricals is your one-stop shop for electrical items and home appliances. We offer buying, selling, and professional repair services with trusted quality and fair pricing.</p>
+  </div>
+
+  <div class="card">
+    <h2>Repair Services</h2>
+    <ul>
+      <li>Cooler</li>
+      <li>Refrigerator</li>
+      <li>Fans (table & ceiling)</li>
+      <li>Mixer & jars</li>
+      <li>DJ systems</li>
+      <li>Woofers</li>
+      <li>And more</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Our Products</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;">
+      <img src="product1.jpg" alt="Product 1" style="width:100%;border-radius:10px;">
+      <img src="product2.jpg" alt="Product 2" style="width:100%;border-radius:10px;">
+      <img src="product3.jpg" alt="Product 3" style="width:100%;border-radius:10px;">
+      <img src="product4.jpg" alt="Product 4" style="width:100%;border-radius:10px;">
+    </div>
+  </div>
+
+</div>
+
+  <a href="tel:9848691711" style="position:fixed;bottom:20px;right:20px;background:#28a745;color:white;padding:15px 20px;border-radius:50px;text-decoration:none;font-weight:bold;box-shadow:0 4px 10px rgba(0,0,0,0.2);">
+    📞 Call Now
+  </a>
+</body>
+</html>
